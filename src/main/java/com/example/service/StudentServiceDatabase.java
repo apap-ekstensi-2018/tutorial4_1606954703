@@ -40,7 +40,6 @@ public class StudentServiceDatabase implements StudentService
         studentMapper.addStudent (student);
     }
 
-
     @Override
     public void deleteStudent (String npm)
     {
